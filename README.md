@@ -17,3 +17,6 @@
     - Step 5: Testing PHP with NGINX
 
     - Step 6: Retrieving data from MYSQL Database with PHP
+
+
+The documentation to the solution can be found in `Project2.md` while errors and resolutions is in `takehome.md`.
