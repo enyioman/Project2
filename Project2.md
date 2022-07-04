@@ -290,7 +290,7 @@ Give user permission over the example_database database:
 GRANT ALL ON example_database.* TO <'example_user'>@'%';
 ```
 
-To to test if the new user has the proper permissions to log into the MySQL console again, this time use the custom user credentials:
+To test if the new user has the proper permissions to log into the MySQL console again, this time use the custom user credentials:
 
 ```
 mysql -u <example_user> -p
@@ -338,7 +338,7 @@ Now you can create a PHP script that will connect to MySQL and query for your co
 vi /var/www/projectLEMP/todo_list.php
 ```
 
-Enter the script below into todo_list.php:
+Enter the script below into todo_list.php. Modify the variables accordingly.
 
 ```
 <?php
