@@ -6,7 +6,7 @@ After configuring Nginx to use PHP processor, I recieved a 502 error while tryin
 
 **Resolution:**
 
-Found out the error was from the configuration in my Nginx root web directory. There was a disperity between the PHP version of my localhost and what I declared earlier in `/etc/nginx/sites-available/projectLEMP`.
+Found out the error was from the configuration in my Nginx root web directory. There was a disparity between the PHP version of my localhost and what I declared earlier in `/etc/nginx/sites-available/projectLEMP`.
 
 
 **Error 2:**
